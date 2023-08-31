@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+SELECT ANIMAL_ID, NAME 
+FROM ANIMAL_INS
+WHERE REGEXP_LIKE(name, 'el','i') and
+      ANIMAL_TYPE = 'Dog'
+ORDER BY NAME ASC;
